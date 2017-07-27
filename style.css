@@ -21,7 +21,7 @@ letter-spacing: 2px;
 }
 
 .bgimg-1 {
-  background-image: url("img_parallax.jpg");
+  background-color: red;
   min-height: 100%;
 }
 
