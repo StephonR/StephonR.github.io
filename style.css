@@ -26,14 +26,6 @@ letter-spacing: 2px;
   min-height: 100%;
 }
 
-.caption {
-  position: absolute;
-  left: 0;
-  top: 50%;
-  width: 100%;
-  text-align: center;
-  color: #000;
-}
 
 
 .navbar {
