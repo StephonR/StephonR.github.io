@@ -5,6 +5,11 @@ body {
     background-color: white;
 }
 
+body, html {
+   height: 100%;
+   
+}
+
 .headline {
 color: black;
 font-family: 'Eczar', serif;
