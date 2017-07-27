@@ -57,7 +57,7 @@ letter-spacing: 2px;
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 40px;
+    font-size: 30px;
     color: #818181;
     display: block;
     transition: 0.3s;
@@ -83,13 +83,6 @@ letter-spacing: 2px;
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
-}
-
-#about {
-font-family: 'Eczar', serif;
-font-size: 48px;
-opacity: 0.8;
-text-align: center; 
 }
 
 
