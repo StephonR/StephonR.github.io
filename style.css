@@ -4,8 +4,6 @@ body {
     margin: 0;
 }
 
-
-
 .headline {
 color: black;
 font-family: 'Eczar', serif;
@@ -20,6 +18,15 @@ letter-spacing: 2px;
 .bgimg-1 {
   background-image: url("img_parallax.jpg");
   min-height: 100%;
+}
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
 }
 
 
