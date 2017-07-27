@@ -17,6 +17,12 @@ position: relative;
 letter-spacing: 2px;
 }
 
+.bgimg-1 {
+  background-image: url("img_parallax.jpg");
+  min-height: 100%;
+}
+
+
 .navbar {
   overflow: hidden;
   background-color: black;
