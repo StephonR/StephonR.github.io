@@ -13,7 +13,6 @@ body, html {
 color: black;
 font-family: 'Eczar', serif;
 font-size: 48px;
-opacity: 0.8;
 text-align: center;
 top: 250px;
 position: relative;
@@ -21,7 +20,7 @@ letter-spacing: 2px;
 }
 
 .bgimg-1 {
- 
+ background-color: white;
   min-height: 100%;
 }
 
@@ -87,7 +86,6 @@ letter-spacing: 2px;
 .about {
 font-family: 'Eczar', serif;
 font-size: 48px;
-opacity: 0.8;
 text-align: center; 
 }
 
