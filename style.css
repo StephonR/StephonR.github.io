@@ -11,7 +11,7 @@ body, html {
 }
 
 .headline {
-
+color: black;
 font-family: 'Eczar', serif;
 font-size: 48px;
 opacity: 0.8;
@@ -26,6 +26,14 @@ letter-spacing: 2px;
   min-height: 100%;
 }
 
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+}
 
 
 .navbar {
@@ -49,7 +57,7 @@ letter-spacing: 2px;
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 30px;
+    font-size: 40px;
     color: #818181;
     display: block;
     transition: 0.3s;
@@ -75,6 +83,13 @@ letter-spacing: 2px;
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
+}
+
+#about {
+font-family: 'Eczar', serif;
+font-size: 48px;
+opacity: 0.8;
+text-align: center; 
 }
 
 
