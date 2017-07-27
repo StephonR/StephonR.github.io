@@ -84,6 +84,13 @@ letter-spacing: 2px;
   .sidenav a {font-size: 18px;}
 }
 
+#about {
+font-family: 'Eczar', serif;
+font-size: 48px;
+opacity: 0.8;
+text-align: center; 
+}
+
 
 /* Turn off parallax scrolling for tablets and phones */
 @media only screen and (max-device-width: 1024px) {
