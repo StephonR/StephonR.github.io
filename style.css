@@ -7,17 +7,35 @@ body {
 
 
 
+html {
+  background: purple; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(right, lightBlue, purple); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, lightBlue, purple); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, lightBlue, purple); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, lightBlue, purple); /* Standard syntax */
+
+}
+
+html, body {
+  height: 100%;
+}
+
 .headline {
-color: black;
+color: white;
+font-weight: 900;
 font-family: 'Eczar', serif;
 font-size: 48px;
-opacity: 0.8;
 text-align: center;
 top: 250px;
-position: relative;
-letter-spacing: 1px;
-   
+left: 20%;
+position: absolute;
+letter-spacing: 5px;
+text-shadow: 0px 0px 100px black;
+border: 2px solid white;
+padding: 60px 50px 50px 60px;
+border-radius: 25px;
 }
+
 
 .navbar {
   overflow: hidden;
@@ -31,7 +49,7 @@ letter-spacing: 1px;
     z-index: 1;
     top: 0;
     left: 0;
-    background-color: #111;
+    background: black;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -61,6 +79,24 @@ letter-spacing: 1px;
 #main {
     transition: margin-left .5s;
     padding: 16px;
+}
+
+.parallax {
+    /* The image used */
+    background: blue; /* For browsers that do not support gradients */
+  background: -webkit-linear-gradient(right, lightBlue, purple); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, lightBlue, purple); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, lightBlue, purple); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, lightBlue, purple); /* Standard syntax */
+
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 @media screen and (max-height: 450px) {
