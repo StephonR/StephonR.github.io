@@ -1,26 +1,21 @@
 
 body {
-    font-family: "Lato", sans-serif;
-    transition: background-color .5s;
-    margin: 0;
-}
-
-
-
-html {
+  font-family: "Lato", sans-serif;
+  transition: background-color .5s;
+  margin: 0;
   background: purple; /* For browsers that do not support gradients */
   background: -webkit-linear-gradient(right, lightBlue, purple); /* For Safari 5.1 to 6.0 */
   background: -o-linear-gradient(right, lightBlue, purple); /* For Opera 11.1 to 12.0 */
   background: -moz-linear-gradient(right, lightBlue, purple); /* For Firefox 3.6 to 15 */
   background: linear-gradient(to right, lightBlue, purple); /* Standard syntax */
-
 }
+
 
 html, body {
-  height: 100%;
+  height: 80%;
 }
 
-.headline {
+#home {
 color: white;
 font-weight: 900;
 font-family: 'Eczar', serif;
@@ -38,7 +33,10 @@ width: 75%;
 height: 0 auto;
 }
 
-
+.navbar {
+  overflow: hidden;
+  background-color: black;
+}
 
 
 .sidenav {
@@ -81,18 +79,13 @@ height: 0 auto;
 }
 
 .parallax {
-   
-
-    /* Full height */
-    height: 100%; 
-
+   height: 100%; 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
 }
-
 
 
 @media screen and (max-height: 450px) {
