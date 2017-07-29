@@ -84,12 +84,7 @@ height: 0 auto;
 }
 
 .parallax {
-    /* The image used */
-    background: blue; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(right, lightBlue, purple); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(right, lightBlue, purple); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(right, lightBlue, purple); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to right, lightBlue, purple); /* Standard syntax */
+   
 
     /* Full height */
     height: 100%; 
@@ -100,6 +95,8 @@ height: 0 auto;
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
