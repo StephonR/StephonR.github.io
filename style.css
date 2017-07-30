@@ -94,5 +94,9 @@ height: 0 auto;
 }
 
 @media screen and (max-width: 768px) {
-	.sidenav span {font-size: 90px;}
+	.sidenav span {font-size: 80px;}
+}
+
+@media screen and (orientation: landscape) and (max-width: 960px) {
+	#home {width: 85%;}
 }
