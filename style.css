@@ -1,60 +1,38 @@
 body {
-  font-family: "Lato", sans-serif;
-  transition: background-color .5s;
-  background-image: url('https://static.pexels.com/photos/80365/match-smoke-fire-douse-80365.jpeg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  margin: 0 auto;
-}
-
-
-html, body {
-  width: 100%;
-  height: 92%;
-}
-
-.home {
-color: white;
-font-weight: 900;
-font-family: 'Eczar', serif;
-font-size: 48px;
-top: 250px;
-position: relative;
-text-align: center;
-letter-spacing: 5px;
-text-shadow: 0px 0px 100px black;
-border: 1px solid white;
-padding: 20px 5px 10px 5px;
-border-radius: 25px;
-margin: 0 auto;
-width: 75%;
-height: 0 auto;
+	background-color: black;
 
 }
 
-.about {
+body, html {
+  height: 100%;
+  margin: 0;
+}
+
+.bgimg-1 {
+  background-image: url("https://static.pexels.com/photos/279719/pexels-photo-279719.jpeg"); /* For browsers that do not support gradients */    
+  background: -webkit-linear-gradient(left, Purple, Blue), url('https://static.pexels.com/photos/279719/pexels-photo-279719.jpeg'); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, Purple, Blue), url('https://static.pexels.com/photos/279719/pexels-photo-279719.jpeg'); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, Purple, Blue),url('https://static.pexels.com/photos/279719/pexels-photo-279719.jpeg') ; /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, Purple, Blue), url('https://static.pexels.com/photos/279719/pexels-photo-279719.jpeg') ; /* Standard syntax (must be last) */
+  min-height: 100%;
+}
+
+
+.headline {
 	font-family: 'Eczar', serif;
-	font-size: 18px;
-	background-image: linear-gradient(-90deg, purple, blue), url('https://static.pexels.com/photos/80365/match-smoke-fire-douse-80365.jpeg');
-	 background-blend-mode: overlay;
-	 background-size: cover;
-	 text-align: left;
-	 margin: 0 auto;
-
+	font-size: 48px;
+	text-align: center;
+	color: white;
+	left: 0;
+    line-height: 200px;
+    margin: auto;
+    margin-top: -100px;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+	
+	
 }
-
-.Stephon {
-	height: 400px;
-	width: 0 auto;
-	float: left;
-}
-
-
-.navbar {
-  overflow: hidden;
-  background-color: black;
-}
-
 
 .sidenav {
     height: 100%;
@@ -63,7 +41,7 @@ height: 0 auto;
     z-index: 1;
     top: 0;
     left: 0;
-    background: black;
+    background-color: #111;
     overflow-x: hidden;
     transition: 0.5s;
     padding-top: 60px;
@@ -72,21 +50,22 @@ height: 0 auto;
 .sidenav a {
     padding: 8px 8px 8px 32px;
     text-decoration: none;
-    font-size: 35px;
+    font-size: 25px;
     color: #818181;
     display: block;
     transition: 0.3s;
 }
 
 .sidenav a:hover, .offcanvas a:focus{
-    color: #f1f1f1;
+    color: white;
+	
 }
 
 .sidenav .closebtn {
     position: absolute;
     top: 0;
     right: 25px;
-    font-size: 62px;
+    font-size: 36px;
     margin-left: 50px;
 }
 
@@ -95,29 +74,7 @@ height: 0 auto;
     padding: 16px;
 }
 
-.parallax {
-   height: 100%; 
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
-  .home {top: 200px;}
-}
-
-@media screen and (max-width: 768px) {
-	.sidenav span {font-size: 80px;}
-	
-}
-
-@media screen and (orientation: landscape) and (max-width: 960px) {
-	.parallax {height: 110%;}
-	.home {height: 100%; width: 0 auto;}
-	
 }
