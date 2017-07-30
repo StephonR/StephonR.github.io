@@ -3,8 +3,7 @@ body {
   font-family: "Lato", sans-serif;
   transition: background-color .5s;
   margin: 0;
- background-image: url("https://static.pexels.com/photos/129208/pexels-photo-129208.jpeg"); /*for internet-explorer */
-   background-image: linear-gradient(-90deg, blue, purple), url('https://static.pexels.com/photos/129208/pexels-photo-129208.jpeg');
+ background-image: linear-gradient(-90deg, blue, purple), url('https://static.pexels.com/photos/129208/pexels-photo-129208.jpeg');
  background-blend-mode: overlay;
 background-size: cover;
 }
