@@ -2,7 +2,7 @@ body {
   font-family: "Lato", sans-serif;
   transition: background-color .5s;
   background-image: url('https://static.pexels.com/photos/80365/match-smoke-fire-douse-80365.jpeg');
-  background-blend-mode: overlay;
+  background-repeat: no-repeat;
   background-size: cover;
   margin: 0;
 }
