@@ -92,3 +92,7 @@ height: 0 auto;
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+
+@media screen and (min-width: 450px) {
+	.sidenav span {font-size: 90px;}
+}
