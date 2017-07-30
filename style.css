@@ -4,8 +4,8 @@ body {
   transition: background-color .5s;
   margin: 0;
   background-size: cover;
-  background-image: url("https://static.pexels.com/photos/129208/pexels-photo-129208.jpeg"); /*for internet-explorer */
-   background-image: linear-gradient(-90deg, blue, purple), url('https://static.pexels.com/photos/129208/pexels-photo-129208.jpeg');
+  background-imsge: url("https://static.pexels.com/photos/129208/pexels-photo-129208.jpeg"); /*for internet-explorer */
+   background: linear-gradient(-90deg, blue, purple), url('https://static.pexels.com/photos/129208/pexels-photo-129208.jpeg');
     background: -webkit-linear-gradient(-90deg, blue, purple), url('https://static.pexels.com/photos/129208/pexels-photo-129208.jpeg'); /* For Safari 5.1 to 6.0 */
     background: -o-linear-gradient(-90deg, blue, purple), url('https://static.pexels.com/photos/129208/pexels-photo-129208.jpeg');/* For Opera 11.1 to 12.0 */
     background: -moz-linear-gradient(-90deg, blue, purple), url('https://static.pexels.com/photos/129208/pexels-photo-129208.jpeg'); /* For Firefox 3.6 to 15 */
