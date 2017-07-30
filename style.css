@@ -3,16 +3,16 @@ body {
   font-family: "Lato", sans-serif;
   transition: background-color .5s;
   margin: 0;
-  background: purple; /* For browsers that do not support gradients */
-  background: -webkit-linear-gradient(right, lightBlue, lightGray); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(right, lightBlue, lightGray); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(right, lightBlue, lightGray); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to right, lightBlue, lightGray); /* Standard syntax */
+  background-size: cover;
+  background-image: url("https://static.pexels.com/photos/129208/pexels-photo-129208.jpeg"); /*for internet-explorer */
+   background-image: linear-gradient(-90deg, blue, purple), url('https://static.pexels.com/photos/129208/pexels-photo-129208.jpeg');
+   background-blend-mode: overlay;
 }
 
 
 html, body {
-  height: 80%;
+  width: 100%;
+  height: 92%;
 }
 
 .home {
@@ -31,7 +31,26 @@ border-radius: 25px;
 margin: 0 auto;
 width: 75%;
 height: 0 auto;
+
 }
+
+.about {
+	font-family: 'Eczar', serif;
+	font-size: 24px;
+	background-image: linear-gradient(-90deg, purple, blue), url('https://static.pexels.com/photos/80365/match-smoke-fire-douse-80365.jpeg');
+	 background-blend-mode: overlay;
+	 background-size: cover;
+	 text-align: left;
+	 margin: 0 auto;
+
+}
+
+.Stephon {
+	height: 400px;
+	width: 0 auto;
+	float: left;
+}
+
 
 .navbar {
   overflow: hidden;
