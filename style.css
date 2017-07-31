@@ -20,11 +20,11 @@ body, html {
 }
 
 .bgimg-2 {
-  background-image: url("https://static.pexels.com/photos/80037/flowers-blackwhite-nature-weekend-80037.jpeg");
-  background: -webkit-linear-gradient(left, blue, purple)url('https://static.pexels.com/photos/80037/flowers-blackwhite-nature-weekend-80037.jpeg'); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(right, blue, purple), url('https://static.pexels.com/photos/80037/flowers-blackwhite-nature-weekend-80037.jpeg'); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(right, blue, purple), url('https://static.pexels.com/photos/80037/flowers-blackwhite-nature-weekend-80037.jpeg'); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to right, blue, purple), url('https://static.pexels.com/photos/80037/flowers-blackwhite-nature-weekend-80037.jpeg'); /* Standard syntax */
+  background-image: url("https://static.pexels.com/photos/33688/delicate-arch-night-stars-landscape.jpg");
+  background: -webkit-linear-gradient(left, blue, purple)url('https://static.pexels.com/photos/33688/delicate-arch-night-stars-landscape.jpg'); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, blue, purple), url('https://static.pexels.com/photos/33688/delicate-arch-night-stars-landscape.jpg'); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, blue, purple), url('https://static.pexels.com/photos/33688/delicate-arch-night-stars-landscape.jpg'); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, blue, purple), url('https://static.pexels.com/photos/33688/delicate-arch-night-stars-landscape.jpg'); /* Standard syntax */
   background-blend-mode: overlay; 
   min-height: 400px;
   background-size: cover;
@@ -37,12 +37,12 @@ body, html {
 	font-family: 'Eczar', serif;'
 	text-align: center;
 	font-size: 100%;
-	font-size: 18px;
+	font-size: 24px;
 }
 
 .headline {
 	font-family: 'Eczar', serif;
-	font-size: 48px;
+	font-size: 3rem;
 	text-align: center;
 	letter-spacing: 2px;
 	color: white;
@@ -109,4 +109,5 @@ body, html {
         background-attachment: scroll;
     }
 }
+
 
