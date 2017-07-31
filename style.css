@@ -17,6 +17,7 @@ body, html {
   background-blend-mode: overlay;  
   min-height: 100%;
   background-size: cover;
+	
 }
 
 .bgimg-2 {
@@ -32,6 +33,14 @@ body, html {
   
 }
 
+.bgimg-1.bgimg-2.bg-img3 {
+    background-repeat: no-repeat fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	
+}
 
 
 .about {
