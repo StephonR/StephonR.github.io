@@ -8,22 +8,43 @@ body, html {
   margin: 0;
 }
 
-.bgimg-1 {
-  background: url('https://static.pexels.com/photos/37727/pexels-photo-37727.png'); /* For browsers that do not support gradients */  
-  background: -webkit-linear-gradient(left, blue, purple)url('https://static.pexels.com/photos/37727/pexels-photo-37727.png'); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(right, blue, purple), url('https://static.pexels.com/photos/37727/pexels-photo-37727.png'); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(right, blue, purple), url('https://static.pexels.com/photos/37727/pexels-photo-37727.png'); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to right, blue, purple), url('https://static.pexels.com/photos/37727/pexels-photo-37727.png'); /* Standard syntax */
+.bgimg-1{
+  background: url('https://static.pexels.com/photos/34150/pexels-photo.jpg'); /* For browsers that do not support gradients */  
+  background: -webkit-linear-gradient(left, blue, purple)url('https://static.pexels.com/photos/34150/pexels-photo.jpg'); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, blue, purple), url('https://static.pexels.com/photos/34150/pexels-photo.jpg'); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, blue, purple), url('https://static.pexels.com/photos/34150/pexels-photo.jpg'); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, blue, purple), url('https://static.pexels.com/photos/34150/pexels-photo.jpg'); /* Standard syntax */
   background-blend-mode: overlay;  
   min-height: 100%;
   background-size: cover;
 }
 
+.bgimg-2 {
+  background-image: url("https://static.pexels.com/photos/80037/flowers-blackwhite-nature-weekend-80037.jpeg");
+  background: -webkit-linear-gradient(left, blue, purple)url('https://static.pexels.com/photos/80037/flowers-blackwhite-nature-weekend-80037.jpeg'); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, blue, purple), url('https://static.pexels.com/photos/80037/flowers-blackwhite-nature-weekend-80037.jpeg'); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, blue, purple), url('https://static.pexels.com/photos/80037/flowers-blackwhite-nature-weekend-80037.jpeg'); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, blue, purple), url('https://static.pexels.com/photos/80037/flowers-blackwhite-nature-weekend-80037.jpeg'); /* Standard syntax */
+  background-blend-mode: overlay; 
+  min-height: 400px;
+  background-size: cover;
+  margin-top: -50px;
+
+}
+
+.about {
+	color: white;
+	font-family: 'Eczar', serif;'
+	text-align: center;
+	font-size: 100%;
+	font-size: 18px;
+}
 
 .headline {
 	font-family: 'Eczar', serif;
 	font-size: 48px;
 	text-align: center;
+	letter-spacing: 2px;
 	color: white;
 	left: 0;
     line-height: 200px;
@@ -35,6 +56,7 @@ body, html {
 	
 	
 }
+
 
 .sidenav {
     height: 100%;
@@ -80,3 +102,11 @@ body, html {
   .sidenav {padding-top: 15px;}
   .sidenav a {font-size: 18px;}
 }
+
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
+
