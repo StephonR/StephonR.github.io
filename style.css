@@ -131,8 +131,9 @@ body, html {
 }
 
 @media only screen and (max-width: 320px) {
-	body {fon-size: 16px;}
-	.headline {font-size: 250%;}
+	
+	.headline {font-size: 24px;}
+	.sub {font-size:18px;}
 	
 }
 
