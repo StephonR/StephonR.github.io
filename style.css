@@ -202,5 +202,9 @@ body, html {
     }
 }
 
-
+@media screen and (min-width: 550px)
+	
+body {
+    font-size: 1.4rem;
+}
 
