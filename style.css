@@ -20,29 +20,24 @@ body, html {
 }
 
 .bgimg-2 {
-  background-image: url("https://static.pexels.com/photos/33688/delicate-arch-night-stars-landscape.jpg");
-  background: -webkit-linear-gradient(left, blue, purple)url('https://static.pexels.com/photos/33688/delicate-arch-night-stars-landscape.jpg'); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(right, blue, purple), url('https://static.pexels.com/photos/33688/delicate-arch-night-stars-landscape.jpg'); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(right, blue, purple), url('https://static.pexels.com/photos/33688/delicate-arch-night-stars-landscape.jpg'); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to right, blue, purple), url('https://static.pexels.com/photos/33688/delicate-arch-night-stars-landscape.jpg'); /* Standard syntax */
-  background-blend-mode: overlay; 
+  background-color: white;
+
   min-height: 400px;
   background-size: cover;
-  margin-top: -50px;
-
 }
 
 .about {
-	color: white;
+	color: black;
 	font-family: 'Eczar', serif;'
 	text-align: center;
 	font-size: 100%;
 	font-size: 24px;
+	display: inline-block;
 }
 
 .headline {
 	font-family: 'Eczar', serif;
-	font-size: 3rem;
+	font-size: 48px;
 	text-align: center;
 	letter-spacing: 2px;
 	color: white;
@@ -52,11 +47,26 @@ body, html {
     margin-top: -100px;
     position: absolute;
     top: 50%;
-    width: 100%;
-	
-	
+    width: 100%;	
 }
 
+.sub {
+	text-align: center;
+	color: white;
+	font-size: 24px;
+	position: absolute;
+	left: 0;
+	margin: auto;
+	top: 60%;
+	width: 100%;
+}
+
+.me {
+	float: right;
+	margin-top: 0px;
+	color: white;
+	font-style: italic;
+}
 
 .sidenav {
     height: 100%;
@@ -109,5 +119,6 @@ body, html {
         background-attachment: scroll;
     }
 }
+
 
 
