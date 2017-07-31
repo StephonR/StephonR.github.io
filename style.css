@@ -206,8 +206,13 @@ body, html {
   and (min-device-width: 320px) 
   and (max-device-width: 568px)
   and (-webkit-min-device-pixel-ratio: 2) {
-	  body { height: 100%; 
+	  body { height: auto; 
 		  width: 100%;
+	       }
+		  
+	  html  { width: 100%;
+		  height: auto;
+	  }
 }
 
 
