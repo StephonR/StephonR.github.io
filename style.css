@@ -214,7 +214,7 @@ body, html {
 
 @media screen and (min-width: 550px) {
 	
-body {font-size: 1.4rem;}
+body {height: 100%; width: 100%;}
 
 .icon-1.icon-2.icon-3 {font-size: 1.5rem;}
 	
