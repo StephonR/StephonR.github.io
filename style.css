@@ -132,7 +132,7 @@ body, html {
 
 @media (max-width: 480px) {
 
-body { font-size: 1.4rem;}
+body { font-size: 1.4rem; -webkit-text-size-adjust: none;}
 	.headline {24px;}
 	.sub {18px;}
 
