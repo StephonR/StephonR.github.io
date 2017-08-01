@@ -133,8 +133,8 @@ body, html {
 @media only screen and (max-width: 320px) {
 	
 body {-webkit-text-size-adjust: none;}
-.headline {font-size: 24px;}
-.sub {font-size:18px;}
+.headline {font-size: 1.5em;}
+.sub {font-size:1.125em;}
 	
 }
 
