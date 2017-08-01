@@ -70,6 +70,7 @@ body, html {
 
 .me {
 	float: right;
+	font-weight: regular;
 	margin-top: 0px;
 	color: white;
 	font-style: italic;
