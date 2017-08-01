@@ -214,9 +214,9 @@ body { font-size: 16px; -webkit-text-size-adjust: none;}
 	.sub {font-size: 16px;} .me {font-size: 12px;}
 	.icon-1 {width: 1px; margin: 0; top: 3px; left: 40px; font-size: 10px; position: relative;}
 	.icon-2 {width: 1px; margin: 0; top: 2px; left: 20px; font-size: 10px; position: relative;}
-	.icon-3 {width: 1px; margin: 0; top: 1px; left: 10PX; font-size: 10px; position: relative;}
+	.icon-3 {width: 1px; margin: 0; top: 1px; left: 15PX; font-size: 10px; position: relative;}
 	
-	.icon-1 p {width: 400px; font-size: 10px;} .icon-2 p {width: 400px; font-size: 10px;}
-	.icon-3 p {width: 400px; font-size: 10px;}
+	.icon-1 p {width: 350px; font-size: 10px;} .icon-2 p {width: 350px; font-size: 10px;}
+	.icon-3 p {width: 350px; font-size: 10px;}
 	
 }
