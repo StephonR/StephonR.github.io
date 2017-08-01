@@ -77,7 +77,79 @@ body, html {
 	font-size: 18px;
 }
 
+.icon-1 {
+	position: absolute;
+	margin: auto;
+	text-align: justify;
+	left: 2%;
+	font-size: 24px;
+	}
+	
+	.icon-1 img p {
+		display: block;
+		 margin: 0 auto;
+		 font-size: 0px;
+	}
+	
+	.icon-1 p { 
+	width: 400px;
+    padding: 0px;
+    border: 0px solid white;
+    margin: 0;
+	position: relative;
+	right: 20px;
+	font-size: 20px;
+	text-align: left;
+	}
 
+	.icon-2 {
+	position: absolute;
+	margin: auto;
+	text-align: justify;
+	font-size: 24px;
+	left: 72%;
+}
+
+	.icon-2 img p {
+		display: block;
+		 margin: 0 auto;
+		 font-size: 0px;
+	}
+	
+	.icon-2 p { 
+	width: 400px;
+    padding: 0px;
+    border: 0px solid white;
+	position: relative;
+	right: 20px;
+	font-size: 20px;
+	text-align: left;
+	}
+
+
+.icon-3 {
+	position: absolute;
+	margin: auto;
+	text-align: justify;
+	font-size: 24px;
+	left: 38%
+}
+
+.icon-3 img p {
+	display: block;
+	 margin: 0 auto;
+	 font-size: 0px;
+}
+
+.icon-3 p { 
+	width: 400px;
+    padding: 0px;
+    border: 0px solid white;
+	position: relative;
+	right: 20px;
+	font-size: 20px;
+	text-align: left;
+	}
 
 .sidenav {
     height: 100%;
