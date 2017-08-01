@@ -65,7 +65,7 @@ body, html {
 	left: 0;
 	margin: auto;
 	top: 60%;
-	width: 100%;
+		width: 100%;
 }
 
 .me {
@@ -83,6 +83,7 @@ body, html {
 	text-align: justify;
 	left: 2%;
 	font-size: 24px;
+	max-width: 100%;
 	}
 	
 	.icon-1 img p {
@@ -108,6 +109,7 @@ body, html {
 	text-align: justify;
 	font-size: 24px;
 	left: 72%;
+		max-width: 100%;
 }
 
 	.icon-2 img p {
@@ -133,6 +135,7 @@ body, html {
 	text-align: justify;
 	font-size: 24px;
 	left: 38%
+		max-width: 100%;
 }
 
 .icon-3 img p {
