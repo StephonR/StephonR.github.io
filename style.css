@@ -133,7 +133,7 @@ body, html {
 @media (max-width: 480px) {
 
 body { font-size: 16px; -webkit-text-size-adjust: none;}
-	.headline { font-size: 16px;}
-	.sub {font-size: 12px;}
+	.headline { font-size: 18px; position: relative;}
+	.sub {font-size: 16px;}
 
 }
