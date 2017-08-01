@@ -130,9 +130,10 @@ body, html {
     }
 }
 
-@media screen and (min-width: 550px) {
+@media (max-width: 480px) {
 
 body { font-size: 1.4rem;}
-
+	.headline {24px;}
+	.sub {18px;}
 
 }
