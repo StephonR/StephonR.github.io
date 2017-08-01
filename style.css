@@ -216,7 +216,10 @@ body { font-size: 16px; -webkit-text-size-adjust: none;}
 	.icon-2 {width: 1px; margin: 0; left: 30px; position: static; font-size: 10px;}
 	.icon-3 {width: 1px; margin: 0; left: 30px; position: static; font-size: 10px;}
 	
-	.icon-1 p {width: 350px; font-size: 12px;} .icon-2 p {width: 350px; font-size: 12px; vertical-align: 10px;}
-	.icon-3 p {width: 350px; font-size: 12px; vertical-align: 25px;}
+	.icon-1.icon-2.icon-3 {border-collapse: collapse;}
+	
+	.icon-1 p {width: 350px; font-size: 12px; padding-top: 8px; padding-bottom: .5em;} 
+	.icon-2 p {width: 350px; font-size: 12px; padding-top: 8px; padding-bottom: .5em;}
+	.icon-3 p {width: 350px; font-size: 12px; padding-top: 8px; padding-bottom: .5em;}
 	
 }
