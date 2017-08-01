@@ -207,10 +207,8 @@ body, html {
 @media (max-width: 480px) {
 
 body { font-size: 16px; -webkit-text-size-adjust: none;}
-	
 	.headline { font-size: 24px; width: 100%;}
-	
 	.sub {font-size: 16px;} .me {font-size: 12px;}
-	
-	.icon-1 p .icon-2 p .icon-3 p {width: 30px; height: 0 auto; font-size: 12px;}
+	.icon-1 {width: 10px; height: 0 auto;} .icon-2 {width: 10px; height: 0 auto;}
+	.icon-3 {width: 10px; height: 0 auto;}
 }
