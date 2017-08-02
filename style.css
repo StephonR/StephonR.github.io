@@ -1,5 +1,6 @@
 body {
 	font-family: 'Eczar', serif;
+	
 
 }
 
@@ -26,12 +27,22 @@ body, html {
 }
 
 .bgimg-3 {
-  background-color: black;
+  background: url('https://static.pexels.com/photos/37727/pexels-photo-37727.png'); /* For browsers that do not support gradients */  
+  background: -webkit-linear-gradient(left, blue, purple)url('https://static.pexels.com/photos/37727/pexels-photo-37727.png'); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, blue, purple), url('https://static.pexels.com/photos/37727/pexels-photo-37727.png'); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, blue, purple), url('https://static.pexels.com/photos/37727/pexels-photo-37727.png'); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, blue, purple), url('https://static.pexels.com/photos/37727/pexels-photo-37727.png'); /* Standard syntax */
+  background-blend-mode: overlay;  
   min-height: 400px;
   background-size: cover;
   
 }
 
+.bgimg-4 {
+	 background-color: white;
+	 min-height: 400px;
+     background-size: cover;
+}
 
 
 .about {
@@ -65,25 +76,41 @@ body, html {
 	left: 0;
 	margin: auto;
 	top: 60%;
-		width: 100%;
+	width: 100%;
 }
 
 .me {
 	float: right;
-	font-weight: regular;
 	margin-top: 0px;
 	color: white;
 	font-style: italic;
 	font-size: 18px;
 }
 
+	#mission { 
+	text-align: center;
+	font-family:Eczar,serif;
+	font-size:36px;
+	color: white;
+	padding: 40px;
+	}
+	
+	.mission {
+		font-size: 20px;
+		font-weight: normal;
+		color: white;
+		text-align: center;
+		font-family:Eczar, serif;
+		padding: 30px 90px;
+		
+	}
+	
 .icon-1 {
 	position: absolute;
 	margin: auto;
 	text-align: justify;
 	left: 2%;
 	font-size: 24px;
-	
 	}
 	
 	.icon-1 img p {
@@ -109,7 +136,6 @@ body, html {
 	text-align: justify;
 	font-size: 24px;
 	left: 72%;
-		
 }
 
 	.icon-2 img p {
@@ -121,6 +147,7 @@ body, html {
 	.icon-2 p { 
 	width: 400px;
     padding: 0px;
+	margin: 0;
     border: 0px solid white;
 	position: relative;
 	right: 20px;
@@ -135,7 +162,6 @@ body, html {
 	text-align: justify;
 	font-size: 24px;
 	left: 38%
-		
 }
 
 .icon-3 img p {
@@ -194,6 +220,67 @@ body, html {
     transition: margin-left .5s;
     padding: 16px;
 }
+
+
+form {
+  /* Just to center the form on the page */
+  margin: 0 auto;
+  width: 400px;
+  /* To see the outline of the form */
+  padding: 1em;
+  border: 1px solid #CCC;
+  border-radius: 1em;
+  margin-right: 75%;
+}
+
+form div + div {
+  margin-top: 1em;
+}
+
+label {
+  /* To make sure that all labels have the same size and are properly aligned */
+  display: inline-block;
+  width: 90px;
+  text-align: right;
+}
+
+input, textarea {
+  /* To make sure that all text fields have the same font settings
+     By default, textareas have a monospace font */
+  font: 1em sans-serif;
+
+  /* To give the same size to all text fields */
+  width: 300px;
+  box-sizing: border-box;
+
+  /* To harmonize the look & feel of text field border */
+  border: 1px solid #999;
+}
+
+input:focus, textarea:focus {
+  /* To give a little highlight on active elements */
+  border-color: #000;
+}
+
+textarea {
+  /* To properly align multiline text fields with their labels */
+  vertical-align: top;
+
+  /* To give enough room to type some text */
+  height: 5em;
+}
+
+.button {
+  /* To position the buttons to the same position of the text fields */
+  padding-left: 90px; /* same size as the label elements */
+}
+
+button {
+  /* This extra margin represent roughly the same space as the space
+     between the labels and their text fields */
+  margin-left: .5em;
+}
+
 
 @media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
