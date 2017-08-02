@@ -18,7 +18,7 @@
 <div id="mySidenav" class="sidenav">
   <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
   <a href="#main">Home</a>
-  <a href="#about">Skills</a>
+  <a href="#skills">Skills</a>
   <a href="#mission">Mission</a>
   <a href="#contact">Contact</a>
 </div>
@@ -34,23 +34,19 @@
   <h3 style="background-color:transparent;text-align:center;font-family:Eczar,serif">Front-End Developer<br/k>X<br/k>UI/UX Designer</h3>
 </div>
 <div class="bgimg-2">
-<h2 style="background-color:white;text-align:center;font-family:Eczar,serif;font-size:36px;color:black">Skill Set</h2>
-<p class="skills"></p>
-
+<h1 id="skills" style="background-color:white;text-align:center;font-family:Eczar,serif;font-size:36px;color:black">Skill Set</h1>
 <div class="icon-1">
 <img src="https://cdn3.iconfinder.com/data/icons/luchesa-vol-9/128/Html-512.png" alt="coding" style="width:250px">
 <h1>Coding</h1>
-<p>Utilizing HTML5, CSS3, PHP and JavaScript. I mainly code from the DOC up, 
+<p>I write code utilizing HTML5, CSS3, PHP and JavaScript. I mainly code from the DOC up, 
 but I've been also familiarizing myself with various frameworks and Content Management Systems.</P>
 </div>
-
 <div class="icon-2">
 <img src="https://ayruz.com/wp-content/uploads/2016/04/pht_icon01.png" alt="UX/UI" style="width:250px">
 <h1>UI/UX</h1>
 <p>Constantly researching and testing the most practical and user friendly designs and interfaces
 to make sure that you're completely happy with your experience.</p>
 </div>
-
 <div class="icon-3">
 <img src="http://www.allyeastman.com.au/img/webDesignIcon.png" alt="graphic design" style="width:250px">
 <h1>Design</h1>
@@ -58,11 +54,42 @@ to make sure that you're completely happy with your experience.</p>
 that we transform into visual representations.</p>
 </div>
 </div>
+
 <div class="bgimg-3">
-<div class="mission"
-<h3 style="font-size:25px;color: black;"></h3>
+<h1 id="mission">Mission</h1>
+<p class="mission">My name is Stephon Ripton. 22 years old, Front-End Developer and full time techie. My mission is to provide a positive collaboration experience and to help you 
+turn your ideas and visions into a reality. With a background in SEO and SEM, I can provide you with quality steps to solidifying your rank in the search results.
+At the end of the day my works not done until your work gets the recognition it deserves.</p>
 </div>
+
+<div class="bgimg-4">
+<h1 id="contact" style="text-align:center;font-family:Eczar,serif;font-size:36px;color:black">Get in touch</h1>
+
+<form action="insertaction.php" method="post">
+
+<div class="container">
+
+<label for="Name">Name</label>
+<input type="text" id="yourname" name="user_name" value="">
 </div>
+
+<div>
+<label for="mail">Email</label>
+<input type="email" id="mail" name="user_email" value="">
+</div>
+
+<div>
+<label for="msg">Message</label>
+<textarea id="msg" name="user_message" value=""></textarea>
+</div>
+
+<div class="button">
+<button type="submit">Submit</button>
+</div>
+
+</div>
+
+
 <script>
 function openNav() {
     document.getElementById("mySidenav").style.width = "250px";
