@@ -244,10 +244,10 @@ body, html {
     font-size: 18px;
     margin: 4px 2px;
     cursor: pointer;
-	font-family: Eczar, serif;
-	border-radius: 12px;
-	margin-top: 50px;
-	-webkit-transition-duration: 0.4s;
+    font-family: Eczar, serif;
+    border-radius: 12px;
+    margin-top: 50px;
+    -webkit-transition-duration: 0.4s;
     transition-duration: 0.4s;
 }
 
