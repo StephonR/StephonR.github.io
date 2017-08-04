@@ -262,16 +262,26 @@ body, html {
   transform: translateX(2px);
 }
 
+.ctform {
+		font-size: 18px;
+		font-weight: normal;
+		color: black;
+		text-align: center;
+		font-family:Eczar, serif;
+		padding: 30px 90px;
+		margin-top: 30px;
+}
+
 form {
   /* Just to center the form on the page */
   margin: 0 auto;
   width: 400px;
   /* To see the outline of the form */
   padding: 2em;
-  border: 1px solid transparwnt;
+  border: 1px solid transparent;
   border-radius: 1em;
   margin-right: 40%;
-  margin-top: 15%;
+  margin-top: -15px;
 }
 
 form div + div {
@@ -359,6 +369,9 @@ body { font-size: 16px; -webkit-text-size-adjust: none;}
 	.icon-1 p {width: 350px; font-size: 12px;} 
 	.icon-2 p {width: 350px; font-size: 12px;}
 	.icon-3 p {width: 350px; font-size: 12px;}
+	input, textarea {width: 300px;}
+	button {margin-left: 17.5em;}
 	
 }
+
 
