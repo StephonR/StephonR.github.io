@@ -51,18 +51,6 @@ body, html {
 	
 }
 
-.bgimg-6 {
-	background: url('https://static.pexels.com/photos/129208/pexels-photo-129208.jpeg'); /* For browsers that do not support gradients */  
-  background: -webkit-linear-gradient(left, blue, purple)url('https://static.pexels.com/photos/129208/pexels-photo-129208.jpeg'); /* For Safari 5.1 to 6.0 */
-  background: -o-linear-gradient(right, blue, purple), url('https://static.pexels.com/photos/129208/pexels-photo-129208.jpeg'); /* For Opera 11.1 to 12.0 */
-  background: -moz-linear-gradient(right, blue, purple), url('https://static.pexels.com/photos/129208/pexels-photo-129208.jpeg'); /* For Firefox 3.6 to 15 */
-  background: linear-gradient(to right, blue, purple), url('https://static.pexels.com/photos/129208/pexels-photo-129208.jpeg'); /* Standard syntax */
-  background-blend-mode: overlay;  
-  max-height: 100%;
-  background-size: cover;
-  background-repeat: no-repeat;
-}
-
 .about {
 	color: black;
 	font-family: 'Eczar', serif;'
