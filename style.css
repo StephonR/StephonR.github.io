@@ -1,5 +1,5 @@
 body {
-	font-family: 'Eczar', serif;
+	font-family: sans-serif;
 	
 
 }
@@ -45,17 +45,22 @@ body, html {
 }
 
 .bgimg-5 {
-    background: url('https://static.pexels.com/photos/34150/pexels-photo.jpg'); /* For browsers that do not support gradients */  
-    background: -webkit-linear-gradient(left, blue, purple)url('https://static.pexels.com/photos/34150/pexels-photo.jpg'); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(right, blue, purple), url('https://static.pexels.com/photos/34150/pexels-photo.jpg'); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(right, blue, purple), url('https://static.pexels.com/photos/34150/pexels-photo.jpg'); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(to right, blue, purple), url('https://static.pexels.com/photos/34150/pexels-photo.jpg'); /* Standard syntax */
-    background-blend-mode: overlay;
-	min-height: 400px;
+    background-color: black;
+	 min-height: 400px;
      background-size: cover;
 	
 }
 
+.bgimg-6 {
+	background: url('https://static.pexels.com/photos/129208/pexels-photo-129208.jpeg'); /* For browsers that do not support gradients */  
+  background: -webkit-linear-gradient(left, blue, purple)url('https://static.pexels.com/photos/129208/pexels-photo-129208.jpeg'); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, blue, purple), url('https://static.pexels.com/photos/129208/pexels-photo-129208.jpeg'); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, blue, purple), url('https://static.pexels.com/photos/129208/pexels-photo-129208.jpeg'); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, blue, purple), url('https://static.pexels.com/photos/129208/pexels-photo-129208.jpeg'); /* Standard syntax */
+  background-blend-mode: overlay;  
+  min-height: 100%;
+  background-size: cover;
+}
 
 .about {
 	color: black;
@@ -121,7 +126,7 @@ body, html {
 	position: absolute;
 	margin: auto;
 	text-align: justify;
-	left: 2%;
+	left: 10%;
 	font-size: 24px;
 	}
 	
@@ -147,7 +152,7 @@ body, html {
 	margin: auto;
 	text-align: justify;
 	font-size: 24px;
-	left: 72%;
+	left: 73%;
 }
 
 	.icon-2 img p {
@@ -173,7 +178,7 @@ body, html {
 	margin: auto;
 	text-align: justify;
 	font-size: 24px;
-	left: 38%
+	left: 43%
 }
 
 .icon-3 img p {
@@ -234,6 +239,7 @@ body, html {
 }
 
 .button1 {
+	font-family: 'Eczar', serif;
     background-color: #8A2BE2;
     border: none;
     color: white;
@@ -241,7 +247,7 @@ body, html {
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 18px;
+    font-size: 20px;
     margin: 4px 2px;
     cursor: pointer;
     font-family: Eczar, serif;
@@ -261,6 +267,66 @@ body, html {
   transform: translateY(10px);
   transform: translateX(2px);
 }
+
+#icon-container {
+  position:relative;
+    bottom:-150px;
+	margin-left: 675px;
+	border: 0;
+}
+
+#social {
+	position: relative;
+	bottom: -150px;
+	text-align: center;
+	letter-spacing: 2px;
+}
+
+#madeby {
+	font-size: 12px;
+	color: white;
+	position:relative;
+    bottom:-300px;
+	text-align: center;
+	letter-spacing: 2px;
+	font-style: italic;
+}
+
+a {
+	text-decoration: none;
+}
+
+.socicon1 {
+	margin-right: 1%;
+}
+.socicon1:hover {
+	filter: hue-rotate(180deg);
+-webkit-filter: hue-rotate(180deg);
+}
+
+.socicon2 {
+	margin-right: 1%;
+}
+.socicon2:hover {
+	filter: hue-rotate(180deg);
+-webkit-filter: hue-rotate(180deg);
+}
+
+.socicon3 {
+	margin-right: 1%;
+}
+.socicon3:hover {
+	filter: hue-rotate(180deg);
+-webkit-filter: hue-rotate(180deg);
+}
+.socicon4 {
+	margin-right: 1%;
+}
+.socicon4:hover {
+	filter: hue-rotate(180deg);
+-webkit-filter: hue-rotate(180deg);
+}
+	
 
 .ctform {
 		font-size: 18px;
@@ -294,6 +360,7 @@ label {
   display: inline-block;
   width: 40px;
   text-align: right;
+  color: white;
 }
 
 #mail, #yourname {
@@ -373,5 +440,6 @@ body { font-size: 16px; -webkit-text-size-adjust: none;}
 	button {margin-left: 17.5em;}
 	
 }
+
 
 
