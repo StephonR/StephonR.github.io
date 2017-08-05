@@ -430,6 +430,7 @@ body { font-size: 16px; -webkit-text-size-adjust: none;}
 	#icon-container {margin-left: 107px;)
 		.ctform {margin-top: 10px; width:350px;}
 		.form (margin-top:-5px; padding: 20px 40;} .ctform h2 {font-size: 1em;}
+	input, textarea {width: 300px;}
 }
 
 
