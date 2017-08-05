@@ -266,7 +266,7 @@ body, html {
 
 #social {
 	position: relative;
-	bottom: -135px;
+	bottom: -150px;
 	text-align: center;
 	letter-spacing: 2px;
 }
@@ -323,7 +323,7 @@ a {
 		color: black;
 		text-align: center;
 		font-family:Eczar, serif;
-		padding: 30px 90px;
+		padding: 10px 90px;
 		margin-top: 30px;
 }
 
