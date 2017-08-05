@@ -58,7 +58,6 @@ body, html {
   background: -moz-linear-gradient(right, blue, purple), url('https://static.pexels.com/photos/129208/pexels-photo-129208.jpeg'); /* For Firefox 3.6 to 15 */
   background: linear-gradient(to right, blue, purple), url('https://static.pexels.com/photos/129208/pexels-photo-129208.jpeg'); /* Standard syntax */
   background-blend-mode: overlay;  
-  min-height: 100%;
   max-height: 100%;
   background-size: cover;
   background-repeat: no-repeat;
