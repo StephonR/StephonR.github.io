@@ -315,13 +315,7 @@ a {
 	filter: hue-rotate(180deg);
 -webkit-filter: hue-rotate(180deg);
 }
-
-.greetings h1 {
-	color: white;
-	font-family: 'Eczar', serif;
-}
 	
-
 .ctform {
 		font-size: 18px;
 		font-weight: normal;
