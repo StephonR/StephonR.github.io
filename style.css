@@ -451,8 +451,8 @@ and (orientation : landscape) {
 	.headline { font-size: 24px; width: 100%;}
 	.sub {font-size: 16px;} .me {font-size: 12px;}
 	
-	.icon-1 p {width: 185px; font-size: 12px;} 
-	.icon-2 p {width: 200px; font-size: 12px;}
-	.icon-3 p {width: 200px; font-size: 12px;}
+	.icon-1 p {width: 185px; font-size: 12px; right: 30px} 
+	.icon-2 p {width: 200px; font-size: 12px; right: 30px}
+	.icon-3 p {width: 200px; font-size: 12px; right: 30px}
 
 }
