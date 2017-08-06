@@ -316,7 +316,7 @@ a {
 -webkit-filter: hue-rotate(180deg);
 }
 
-.greetings {
+.greetings h1 {
 	color: white;
 	font-family: 'Eczar', serif;
 }
