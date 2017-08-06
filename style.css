@@ -426,6 +426,6 @@ body { font-size: 16px; -webkit-text-size-adjust: none;}
 and (orientation : landscape) {
 	html, body {width: 100%;}
 	-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;
-	p.icon2  {width: 200px;}
+	.icon-2 p {width: 200px;}
 
 }
