@@ -316,6 +316,12 @@ a {
 -webkit-filter: hue-rotate(180deg);
 }
 	
+	.container {
+ 
+  max-height: 100%;
+  
+	}
+
 .ctform {
 		font-size: 18px;
 		font-weight: normal;
@@ -335,7 +341,7 @@ form {
   border: 1px solid transparent;
   border-radius: 1em;
   margin-right: 40%;
-  margin-top: -15px;
+  margin-top: -20px;
 }
 
 form div + div {
@@ -346,7 +352,7 @@ form div + div {
 label {
   /* To make sure that all labels have the same size and are properly aligned */
   display: inline-block;
-  width: 40px;
+  width: 0;
   text-align: right;
   color: white;
 }
@@ -356,40 +362,27 @@ label {
 }
 
 input, textarea {
-  /* To make sure that all text fields have the same font settings
-     By default, textareas have a monospace font */
+	
   font: 1em sans-serif;
   resize: none;
-
-  /* To give the same size to all text fields */
   width: 600px;
   box-sizing: border-box;
-
-  /* To harmonize the look & feel of text field border */
   border: 1px solid #999;
 }
 
 input:focus, textarea:focus {
-  /* To give a little highlight on active elements */
   border-color: #000;
 }
 
 textarea {
-  /* To properly align multiline text fields with their labels */
-  vertical-align: top;
-
-  /* To give enough room to type some text */
-  height: 7em;
+  vertical-align: top; height: 7em;
 }
 
 .button {
-  /* To position the buttons to the same position of the text fields */
   padding-left: 5px; /* same size as the label elements */
 }
 
 button {
-  /* This extra margin represent roughly the same space as the space
-     between the labels and their text fields */
    margin-left: 37em;
   border-radius: 12px;
   background-color: #8A2BE2;
