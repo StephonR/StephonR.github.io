@@ -13,8 +13,14 @@
 <body>
 <style>
 body {
-background-color: rgba(0, 0, 0, 0.6);
-  max-height: 100%;
+background: url('https://static.pexels.com/photos/34150/pexels-photo.jpg'); /* For browsers that do not support gradients */  
+  background: -webkit-linear-gradient(left, blue, purple)url('https://static.pexels.com/photos/34150/pexels-photo.jpg'); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, blue, purple), url('https://static.pexels.com/photos/34150/pexels-photo.jpg'); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, blue, purple), url('https://static.pexels.com/photos/34150/pexels-photo.jpg'); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, blue, purple), url('https://static.pexels.com/photos/34150/pexels-photo.jpg'); /* Standard syntax */
+  background-blend-mode: overlay;  
+  min-height: 100%;
+  background-size: cover;
   } 
   
 </style>
