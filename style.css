@@ -467,8 +467,8 @@ and (orientation : landscape) {
 	.icon-3 h1 {font-size: 12px;}
 	
 	
-	.icon-1 p {width: 350px; font-size: 12px;} .icon-1 img {width:175px;}
-	.icon-2 p {width: 350px; font-size: 12px;} .icon-2 img {width:175px;}
-	.icon-3 p {width: 350px; font-size: 12px;} .icon-3 img {width:175px;}
+	.icon-1 p {width: 350px; font-size: 12px;} .icon-1 img {width:165px;}
+	.icon-2 p {width: 350px; font-size: 12px;} .icon-2 img {width:165px;}
+	.icon-3 p {width: 350px; font-size: 12px;} .icon-3 img {width:165px;}
 	
 }
