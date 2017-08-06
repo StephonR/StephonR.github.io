@@ -115,8 +115,8 @@ body, html {
 	position: absolute;
 	margin: auto;
 	text-align: justify;
-	left: 10%;
 	font-size: 24px;
+	left: 10%;
 	}
 	
 	.icon-1 img p {
@@ -152,9 +152,9 @@ body, html {
 	
 	.icon-2 p { 
 	width: 400px;
-    padding: 0px;
+        padding: 0px;
 	margin: 0;
-    border: 0px solid white;
+        border: 0px solid white;
 	position: relative;
 	right: 20px;
 	font-size: 20px;
@@ -441,7 +441,7 @@ body { font-size: 16px; -webkit-text-size-adjust: none;}
 and (orientation : landscape) {
 	html, body {width: 100%;}
 	-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;
-	.icon-1 {left: 1%; font-size:14px;}  .icon-2 {left: 65%; font-size:16px;} .icon-3 {left: 30%; font-size: 16px;}
+	.icon-1 {left: 1%; font-size:16px;}  .icon-2 {left: 65%; font-size:16px;} .icon-3 {left: 30%; font-size: 16px;}
 	.icon-1 img {width:100px;} .icon-2 img {width:100px;} .icon-3 img {width:100px}
 	
 	#icon-container {right:50%;}
