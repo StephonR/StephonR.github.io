@@ -441,9 +441,9 @@ body { font-size: 16px; -webkit-text-size-adjust: none;}
 and (orientation : landscape) {
 	html, body {width: 100%;}
 	-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;
-	.icon-1 {right: 70%;} .icon-1 h1 {font-size:16px;}  
-	.icon-2 {left: 72%;} .icon-2 h1 {font-size:16px;} 
-	.icon-3 {left: 38%;} .icon-3 h1 {font-size:16px;}
+	.icon-1 {right: 75%;} .icon-1 h1 {font-size:16px;}  
+	.icon-2 {left: 75%;} .icon-2 h1 {font-size:16px;} 
+	.icon-3 {left: 40%;} .icon-3 h1 {font-size:16px;}
 	.icon-1 img {width:100px;} .icon-2 img {width:100px;} .icon-3 img {width:100px}
 	
 	#icon-container {right:50%;}
@@ -451,7 +451,7 @@ and (orientation : landscape) {
 	.headline { font-size: 24px; width: 100%;}
 	.sub {font-size: 16px;} .me {font-size: 12px;}
 	
-	.icon-1 p {width: 190px; font-size: 12px;} 
+	.icon-1 p {width: 185px; font-size: 12px;} 
 	.icon-2 p {width: 200px; font-size: 12px;}
 	.icon-3 p {width: 200px; font-size: 12px;}
 
