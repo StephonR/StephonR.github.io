@@ -416,6 +416,7 @@ body { font-size: 16px; -webkit-text-size-adjust: none;}
 	input, textarea {width: 300px;}
 	button {margin-left: 17.5em;}
 	#icon-container {margin-left: 107px;)
+	.container {background: url('https://static.pexels.com/photos/34150/pexels-photo.jpg');}
 }
 
 
