@@ -427,6 +427,6 @@ and (orientation : landscape) {
 	html, body {width: 100%;}
 	-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;
 	.icon-1 {left: 1%;} .icon-2 {left: 2%;} .icon-3 {left: 3%;}
-	#icon-container {left:50%;}
+	#icon-container {right:50%;}
 
 }
