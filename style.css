@@ -444,15 +444,15 @@ and (orientation : landscape) {
 	.icon-1 {left: 0;} .icon-1 h1 {font-size:16px;}  
 	.icon-2 {left: 75%;} .icon-2 h1 {font-size:16px;} 
 	.icon-3 {left: 40%;} .icon-3 h1 {font-size:16px;}
-	.icon-1 img {width:100px;} .icon-2 img {width:100px;} .icon-3 img {width:100px;}
+	.icon-1 img {width:90px;} .icon-2 img {width:90px;} .icon-3 img {width:90px;}
 	
 	#icon-container {right:50%;}
 	
 	.headline { font-size: 24px; width: 100%;}
 	.sub {font-size: 16px;} .me {font-size: 12px;}
 	
-	.icon-1 p {width: 200px; font-size: 12px; right: 30px;} 
-	.icon-2 p {width: 200px; font-size: 12px; right: 30px;}
-	.icon-3 p {width: 200px; font-size: 12px; right: 30px;}
+	.icon-1 p {width: 190px; font-size: 12px; right: 30px;} 
+	.icon-2 p {width: 190px; font-size: 12px; right: 30px;}
+	.icon-3 p {width: 190px; font-size: 12px; right: 30px;}
 
 }
