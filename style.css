@@ -442,7 +442,7 @@ and (orientation : landscape) {
 	html, body {width: 100%;}
 	-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;
 	.icon-1 {left: 1%;}  .icon-2 {left: 60%;} .icon-3 {left: 30%;}
-	.icon-1 img {width:25px;} .icon-2 img {width:25px;} .icon-3 img {width:25px}
+	.icon-1 img {width:50px;} .icon-2 img {width:50px;} .icon-3 img {width:50px}
 	#icon-container {right:50%;}
 	.headline { font-size: 24px; width: 100%;}
 	.sub {font-size: 16px;} .me {font-size: 12px;}
