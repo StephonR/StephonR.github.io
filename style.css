@@ -316,20 +316,16 @@ a {
 -webkit-filter: hue-rotate(180deg);
 }
 	
-	.container {
- 
-  max-height: 100%;
-  
-	}
+
 
 .ctform {
-		font-size: 18px;
-		font-weight: normal;
-		color: black;
-		text-align: center;
-		font-family:Eczar, serif;
-		padding: 5px;
-		margin-top: 20px;
+	font-size: 18px;
+	font-weight: normal;
+	color: black;
+	text-align: center;
+	font-family:Eczar, serif;
+	padding: 5px;
+	margin-top: 20px;
 }
 
 form {
