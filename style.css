@@ -406,8 +406,8 @@ body { font-size: 16px; -webkit-text-size-adjust: none;}
 	.headline { font-size: 24px; width: 100%;}
 	.sub {font-size: 16px;} .me {font-size: 12px;}
 	.icon-1 {width: 1px; margin: 0; left: 30px; position: relative; font-size: 10px;}
-	.icon-2 {width: 1px; margin: 0; left: 30px; position: relative; font-size: 10px;}
-	.icon-3 {width: 1px; margin: 0; left: 30px; position: relative; font-size: 10px; margin-top: 10px;}
+	.icon-2 {width: 1px; margin: 0; left: 30px; position: relative; font-size: 10px; margin-top: 10px;}
+	.icon-3 {width: 1px; margin: 0; left: 30px; position: relative; font-size: 10px; margin-top: 20px;}
 	
 	
 	.icon-1 p {width: 350px; font-size: 12px;} 
