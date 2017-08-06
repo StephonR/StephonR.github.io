@@ -186,6 +186,21 @@ body, html {
 	text-align: left;
 	}
 	
+.icon-1 img {
+	width:200px;
+	height:auto;
+}
+
+.icon-2 img {
+	width:200px;
+	height:auto;
+}
+
+.icon-3 img {
+	width:200px;
+	height:auto;
+}
+
 
 .sidenav {
     height: 100%;
