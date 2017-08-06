@@ -379,7 +379,7 @@ textarea {
   vertical-align: top;
 
   /* To give enough room to type some text */
-  height: 8em;
+  height: 7em;
 }
 
 .button {
