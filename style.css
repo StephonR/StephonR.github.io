@@ -439,7 +439,7 @@ body { font-size: 16px; -webkit-text-size-adjust: none;}
 
 @media only screen and (max-width: 768px)
 and (orientation : landscape) {
-	html, body {width: 100%; height: 100%; margin: 0px; padding: 0px;}
+	html, body {width: 100%;}
 	-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;
 	.icon-1 {right: 70%;} .icon-1 h1 {font-size:16px;}  
 	.icon-2 {left: 72%;} .icon-2 h1 {font-size:16px;} 
@@ -451,7 +451,7 @@ and (orientation : landscape) {
 	.headline { font-size: 24px; width: 100%;}
 	.sub {font-size: 16px;} .me {font-size: 12px;}
 	
-	.icon-1 p {width: 200px; font-size: 12px;} 
+	.icon-1 p {width: 190px; font-size: 12px;} 
 	.icon-2 p {width: 200px; font-size: 12px;}
 	.icon-3 p {width: 200px; font-size: 12px;}
 
