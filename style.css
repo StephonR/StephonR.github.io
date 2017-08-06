@@ -455,5 +455,5 @@ and (orientation : landscape) {
 	.icon-2 p {width: 190px; font-size: 12px; right: 30px;}
 	.icon-3 p {width: 190px; font-size: 12px; right: 30px;}
 
-	#icon-container {margin-left: 500px; right: 50px;}
+	#icon-container {margin-left: 500px; right: 125px;}
 }
