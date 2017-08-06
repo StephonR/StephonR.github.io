@@ -444,7 +444,7 @@ and (orientation : landscape) {
 	.icon-1 {left: 0;} .icon-1 h1 {font-size:16px;}  
 	.icon-2 {left: 75%;} .icon-2 h1 {font-size:16px;} 
 	.icon-3 {left: 40%;} .icon-3 h1 {font-size:16px;}
-	.icon-1 img {width:100px;} .icon-2 img {width:100px;} .icon-3 img {width:100px}
+	.icon-1 img {width:100px;} .icon-2 img {width:100px;} .icon-3 img {width:100px;}
 	
 	#icon-container {right:50%;}
 	
