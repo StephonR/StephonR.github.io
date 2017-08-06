@@ -439,9 +439,9 @@ body { font-size: 16px; -webkit-text-size-adjust: none;}
 
 @media only screen and (max-width: 768px)
 and (orientation : landscape) {
-	html, body {width: 100%;}
+	html, body {width: 100%; overflow-x: hidden;}
 	-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;
-	.icon-1 {left: -2%;} .icon-1 h1 {font-size:16px;}  
+	.icon-1 {left: -5%;} .icon-1 h1 {font-size:16px;}  
 	.icon-2 {left: 72%;} .icon-2 h1 {font-size:16px;} 
 	.icon-3 {left: 38%;} .icon-3 h1 {font-size:16px;}
 	.icon-1 img {width:100px;} .icon-2 img {width:100px;} .icon-3 img {width:100px}
