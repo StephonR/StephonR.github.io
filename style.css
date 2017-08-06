@@ -413,7 +413,7 @@ body { font-size: 16px; -webkit-text-size-adjust: none;}
 	.icon-1 p {width: 350px; font-size: 12px;} 
 	.icon-2 p {width: 350px; font-size: 12px;}
 	.icon-3 p {width: 350px; font-size: 12px;}
-	input, textarea {width: 100%;}
+	input, textarea {width: 98.9%;}
 	button {margin-left: 17.5em;}
 	form {width: 375px;}
 	#icon-container {margin-left: 107px;}
