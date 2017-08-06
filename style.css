@@ -426,7 +426,7 @@ body { font-size: 16px; -webkit-text-size-adjust: none;}
 and (orientation : landscape) {
 	html, body {width: 100%;}
 	-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;
-	.icon-1 {left: 1%;} .icon-2 {left: 2%;} .icon-3 {left: 3%;}
+	.icon-1 {left: 1%; width:150px;} .icon-2 {left: 2%; width:150px;} .icon-3 {left: 3%; width: 150px;}
 	#icon-container {right:50%;}
 	.headline { font-size: 24px; width: 100%;}
 	.sub {font-size: 16px;} .me {font-size: 12px;}
