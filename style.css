@@ -460,3 +460,8 @@ and (orientation : landscape) {
 	input, textarea {width: 98.9%;} form {width: 400px; margin-right:17.7%;}
 	button {margin-left: 26.5em;}
 }
+
+@media only screen and (max-width: 1024px) {
+	html, body {width: 100%;} -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;
+	
+}
