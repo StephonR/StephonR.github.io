@@ -85,13 +85,7 @@ body, html {
 	width: 100%;
 }
 
-.me {
-	float: right;
-	margin-top: 0px;
-	color: white;
-	font-style: italic;
-	font-size: 18px;
-}
+
 
 	#mission { 
 	text-align: center;
@@ -465,7 +459,7 @@ and (orientation : landscape) {
 	html, body {width: 100%;} -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;
 	
 	.icon-1 h1 {font-size:16px;}
-	.icon-1 {width: 1px; margin: 0; left: 30px; position: relative; font-size: 10px; margin-top: 10px;}
+	.icon-1 {width: 1px; margin: 0; left: 50%; position: relative; font-size: 10px; margin-top: 10px;}
 	.icon-2 {width: 1px; margin: 0; left: 30px; position: relative; font-size: 10px; margin-top: 20px;}
 	.icon-3 {width: 1px; margin: 0; left: 30px; position: relative; font-size: 10px; margin-top: 30px;}
 	
