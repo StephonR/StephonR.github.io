@@ -442,8 +442,8 @@ and (orientation : landscape) {
 	html, body {width: 100%;}
 	-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;
 	.icon-1 {left: 0;} .icon-1 h1 {font-size:16px;}  
-	.icon-2 {left: 75%;} .icon-2 h1 {font-size:16px;} 
-	.icon-3 {left: 40%;} .icon-3 h1 {font-size:16px;}
+	.icon-2 {left: 70%;} .icon-2 h1 {font-size:16px;} 
+	.icon-3 {left: 42%;} .icon-3 h1 {font-size:16px;}
 	.icon-1 img {width:90px;} .icon-2 img {width:90px;} .icon-3 img {width:90px;}
 	
 	#icon-container {right:50%;}
