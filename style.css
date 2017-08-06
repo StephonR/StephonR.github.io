@@ -413,10 +413,10 @@ body { font-size: 16px; -webkit-text-size-adjust: none;}
 	.icon-1 p {width: 350px; font-size: 12px;} 
 	.icon-2 p {width: 350px; font-size: 12px;}
 	.icon-3 p {width: 350px; font-size: 12px;}
-	input, textarea {width: 300px;}
+	input, textarea {width: 600px;}
 	button {margin-left: 17.5em;}
 	#icon-container {margin-left: 107px;)
-		label {margin-top: -10px;}
+	
 
 }
 
