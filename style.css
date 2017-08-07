@@ -478,5 +478,6 @@ and (orientation : landscape) {
 	
 		.bgimg-2 {min-height: 50%; max-height: 50%;}
 		#icon-container {margin-left: 500px; right: 200px;} #main {font-size: 40px;}
+		form {width: 400px; margin-right:35%;}
 		
 }
