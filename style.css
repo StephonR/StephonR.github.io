@@ -235,7 +235,6 @@ body, html {
 #main {
     transition: margin-left .5s;
     padding: 16px;
-	font-size: 30px;
 }
 
 .button1 {
