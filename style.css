@@ -232,6 +232,10 @@ body, html {
     margin-left: 50px;
 }
 
+.closebtn {
+font-size: 35px;	
+}
+
 #main {
     transition: margin-left .5s;
     padding: 16px;
