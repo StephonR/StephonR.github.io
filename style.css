@@ -462,7 +462,7 @@ and (orientation : landscape) {
 	.icon-1 {left: 10%;} .icon-1 h1 {font-size:16px;}  
 	.icon-2 {left: 71.5%;} .icon-2 h1 {font-size:16px;} 
 	.icon-3 {left: 41%;} .icon-3 h1 {font-size:16px;}
-	.icon-1 img {width:90px;} .icon-2 img {width:90px;} .icon-3 img {width:90px;}
+	.icon-1 img {width:100px;} .icon-2 img {width:100px;} .icon-3 img {width:100px;}
 	
 	.icon-1 p {width: 190px; font-size: 12px; right: 30px;} 
 	.icon-2 p {width: 190px; font-size: 12px; right: 30px;}
