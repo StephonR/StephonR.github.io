@@ -468,5 +468,5 @@ and (orientation : landscape) {
 	.icon-2 p {width: 190px; font-size: 12px; right: 30px;}
 	.icon-3 p {width: 190px; font-size: 12px; right: 30px;}
 	
-	.bgimg-2 {max-height: 50%}
+	.bgimg-2 {max-height: 25%}
 }
