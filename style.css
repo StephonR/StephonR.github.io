@@ -461,7 +461,7 @@ and (orientation : landscape) {
 }
 
 @media only screen 
-	and(min-width: 769px)
+	and(min-width: 490px)
 	and(max-width: 1024px) {
 	
 	 html, body {width: 100%;}
