@@ -235,9 +235,11 @@ body, html {
 #main {
     transition: margin-left .5s;
     padding: 16px;
-	font-size: 30px;
 }
 
+#main span {
+font-size: 30px;	
+}
 .button1 {
 	font-family: 'Eczar', serif;
     background-color: #8A2BE2;
