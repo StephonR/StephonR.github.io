@@ -475,7 +475,7 @@ and (orientation : landscape) {
 	.icon-2 p {width: 190px; font-size: 12px; right: 30px;}
 	.icon-3 p {width: 190px; font-size: 12px; right: 30px;}
 	
-		.bgimg-2 {min-height: 50px; max-height: 50px;}
+		.bgimg-2 {min-height: 50%; max-height: 50%;}
 	#icon-container {margin-left: 500px; right: 200px;}
 		
 }
