@@ -460,9 +460,9 @@ and (orientation : landscape) {
 	 html, body {width: 100%;}
 	
 	-webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%;
-		
 	
-	.icon-1 p {width: 190px; font-size: 12px; right: 30px;} 
+	
+	.icon-1 p {width: 190px; font-size: 10px; right: 30px;} 
 	.icon-2 p {width: 190px; font-size: 12px; right: 30px;}
 	.icon-3 p {width: 190px; font-size: 12px; right: 30px;}
 	
