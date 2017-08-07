@@ -199,6 +199,7 @@ body, html {
 .sidenav {
     height: 100%;
     width: 0;
+    font-size: 20px;
     position: fixed;
     z-index: 1;
     top: 0;
