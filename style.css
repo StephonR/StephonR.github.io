@@ -463,7 +463,8 @@ and (orientation : landscape) {
 
 @media only screen 
 	and(min-width: 768px)
-	and(max-width: 1024px) {
+	and(max-width: 1024px)
+	and (-webkit-min-device-pixel-ratio: 1) {
 	
 	 html, body {width: 100%;}
 	
@@ -482,3 +483,5 @@ and (orientation : landscape) {
 		.sidenav a {font-size: 30px;}
 		
 }
+
+@media only screen 
