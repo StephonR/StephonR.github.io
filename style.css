@@ -458,4 +458,13 @@ and (orientation : landscape) {
 @media only screen and (max-width: 1024px) {
 	
 	 html, body {width: 100%;}
+	
+	.icon-1 {left: 0;} .icon-1 h1 {font-size:16px;}  
+	.icon-2 {left: 71.5%;} .icon-2 h1 {font-size:16px;} 
+	.icon-3 {left: 41%;} .icon-3 h1 {font-size:16px;}
+	.icon-1 img {width:90px;} .icon-2 img {width:90px;} .icon-3 img {width:90px;}
+	
+	.icon-1 p {width: 190px; font-size: 12px; right: 30px;} 
+	.icon-2 p {width: 190px; font-size: 12px; right: 30px;}
+	.icon-3 p {width: 190px; font-size: 12px; right: 30px;}
 }
