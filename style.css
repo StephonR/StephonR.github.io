@@ -501,7 +501,7 @@ and (orientation : landscape) {
 	.icon-3 p {width: 190px; font-size: 12px; right: 30px;}
 	
 	.bgimg-2 {min-height: 75%; max-height: 75%;}
-	#icon-container {margin-left: 525px; right: 200px;} #main {font-size: 40px;}
+	#icon-container {margin-left: 575px; right: 200px;} #main {font-size: 40px;}
 	form {width: 400px; margin-right:35%;} button {margin-left: .1em;}
 	.sidenav a {font-size: 30px;}
 		
