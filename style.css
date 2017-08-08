@@ -464,7 +464,7 @@ and (orientation : landscape) {
 @media only screen 
 	and(min-width: 768px)
 	and(max-width: 1024px)
-	and (-webkit-min-device-pixel-ratio: 1) {
+	and (orientation : portrait) {
 	
 	 html, body {width: 100%;}
 	
@@ -484,4 +484,25 @@ and (orientation : landscape) {
 		
 }
 
-@media only screen 
+ @media only screen 
+	and(min-width: 768px)
+	and(max-width: 1024px)
+	and (orientation : landscape) {
+	
+	 html, body {width: 100%;}
+	
+	.icon-1 {left: 10%;} .icon-1 h1 {font-size:16px;}  
+	.icon-2 {left: 71.5%;} .icon-2 h1 {font-size:16px;} 
+	.icon-3 {left: 41%;} .icon-3 h1 {font-size:16px;}
+	.icon-1 img {width:125px;} .icon-2 img {width:125px;} .icon-3 img {width:125px;}
+	
+	.icon-1 p {width: 190px; font-size: 12px; right: 30px;} 
+	.icon-2 p {width: 190px; font-size: 12px; right: 30px;}
+	.icon-3 p {width: 190px; font-size: 12px; right: 30px;}
+	
+	.bgimg-2 {min-height: 75%; max-height: 75%;}
+	#icon-container {margin-left: 500px; right: 200px;} #main {font-size: 40px;}
+	form {width: 400px; margin-right:30%;} button {margin-left: .1em;}
+	.sidenav a {font-size: 30px;}
+		
+}
