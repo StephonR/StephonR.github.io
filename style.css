@@ -507,3 +507,8 @@ and (orientation : landscape) {
 	.sidenav a {font-size: 30px;}
 		
 }
+
+@media only screen
+    (min-width: 1200px) {
+	    html, body {width: 100%;}
+}
