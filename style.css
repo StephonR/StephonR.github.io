@@ -276,12 +276,12 @@ font-size: 35px;
 #icon-container {
   position:relative;
     bottom:-150px;
-	margin-left: 675px;
+	margin-left: 850px;
 	border: 0;
 }
 
 #social {
-	position: absolute;
+	position: relative;
 	bottom: -150px;
 	text-align: center;
 	letter-spacing: 2px;
