@@ -281,7 +281,7 @@ font-size: 35px;
 }
 
 #social {
-	position: relative;
+	position: absolute;
 	bottom: -150px;
 	text-align: center;
 	letter-spacing: 2px;
